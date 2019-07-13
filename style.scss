@@ -27,14 +27,15 @@ $fontH2: 30px;
             a {
                 color: white;
                 text-decoration: none;
-                
+                text-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
             }
         }
 
         #logo {
             font-size: 72px;
-            vertical-align: top;
+            vertical-align: -30px;
             margin: 0 60px;
+            font-family: 'Lobster', cursive;
         }
     }
 }
