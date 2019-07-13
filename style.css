@@ -1,4 +1,28 @@
-h1 {
-  color: gold;
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/banner.png);
+  color: white;
+}
+
+.banner ul {
+  height: 100px;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.banner ul li {
+  display: inline-block;
+}
+
+.banner ul #logo {
+  font-size: 72px;
 }
 /*# sourceMappingURL=style.css.map */
